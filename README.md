@@ -1,6 +1,6 @@
 # Holberton School - Headphone Company project
 
-This project is intended to give a brief expose into our headphone company. The various services we have , How to contact us and a lot more.
+Holberton school headphone company project is intended to give a brief expose into our headphone company. The various services we have , How to contact us and a lot more.
 
 This is how the final output is expected to look:
 
