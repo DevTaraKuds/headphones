@@ -240,9 +240,7 @@ button:hover, button:active{
   align-items: center; */
   /* justify-content: center; */
 }
-.call-to-action:hover, .call-to-action:active{
-  opacity: 0.9;
-}
+
 .call-to-action{
   color: #FFF;
   text-align: center;
@@ -259,6 +257,31 @@ button:hover, button:active{
   flex-shrink: 0;
 }
 
+#about-section{
+  /* height: 100px; */
+  width: inherit;
+  background-color: #fff;
+  text-align: center;
+  color: var(--dark);
+}
+
+#about-section div{
+  width: var(--max-width);
+  margin: auto;
+  padding-top: var(--padding-bottom);
+}
+
+.card-box, #pentagon-cards{
+  display: flex;
+}
+
+.cards{
+  margin: 10%;
+  text-align: center;
+}
+
+
+
 /* End of Others */
 
 /* Media queries */
@@ -270,6 +293,13 @@ button:hover, button:active{
         padding: 0;
         display: flex;
         justify-content: space-between;
+    }
+    #about-section div{
+      width: inherit;
+      margin: auto 5%;
+    }
+
+    .card-box{
     }
     
 }
@@ -299,5 +329,10 @@ button:hover, button:active{
 
     nav{
       display: block;
+    }
+
+    .card-box {
+      flex-wrap: wrap;
+
     }
 }

@@ -240,9 +240,7 @@ button:hover, button:active{
   align-items: center; */
   /* justify-content: center; */
 }
-.call-to-action:hover, .call-to-action:active{
-  opacity: 0.9;
-}
+
 .call-to-action{
   color: #FFF;
   text-align: center;
@@ -259,6 +257,96 @@ button:hover, button:active{
   flex-shrink: 0;
 }
 
+#about-section{
+  /* height: 100px; */
+  width: inherit;
+  background-color: #fff;
+  text-align: center;
+  color: var(--dark);
+  padding-bottom: var(--padding-bottom);
+}
+
+#about-section div{
+  width: var(--max-width);
+  margin: auto;
+  padding-top: var(--padding-bottom);
+}
+
+.card-box, #pentagon-cards{
+  display: flex;
+}
+
+.cards{
+  margin: 10%;
+  text-align: center;
+}
+
+#result{
+  background-image: url(./assets/headphones_hero_2.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: var(--padding-bottom);
+}
+
+#result div{
+  width: var(--max-width);
+}
+#pentagon-cards{
+  width: var(--max-width);
+  padding: auto;
+  margin: auto;
+  
+}
+#pentagon-cards .cards{
+  margin: 5%;
+}
+#contact-us{
+  /* text-align: center; */
+  /* margin: 10% 15% 2% 15%; ; */
+}
+form{
+  height: inherit;
+  margin-top: 10%;
+  text-align: center;
+}
+.formfields{
+  text-align: left;
+  color: #071629;
+  border: none;
+  border-bottom: 1px solid #071629;
+  padding: 0; 
+  margin: 5% 0;
+  padding: 3%;
+  font-family: SourceSansPro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    align-items: center;
+    /* height: inherit; */
+    color: white;
+    padding: 5% 10% ;
+    /* padding-left: 7%;
+    padding-right: 15%;
+    padding-top: 5%; */
+}
+footer{
+    background-color: #071629;
+    /* text-align: center; */
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
 /* End of Others */
 
 /* Media queries */
@@ -270,6 +358,13 @@ button:hover, button:active{
         padding: 0;
         display: flex;
         justify-content: space-between;
+    }
+    #about-section div{
+      width: inherit;
+      margin: auto 5%;
+    }
+
+    .card-box{
     }
     
 }
@@ -299,5 +394,10 @@ button:hover, button:active{
 
     nav{
       display: block;
+    }
+
+    .card-box {
+      flex-wrap: wrap;
+
     }
 }
